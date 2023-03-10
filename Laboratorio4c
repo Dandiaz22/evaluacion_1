@@ -68,8 +68,24 @@ int main(){
 //---------------------INSTRUCCIONES-----------------------
 //explique: 
 //      1. ¿Qué es lo que hace el código en un comentario antes de modificarlo?
+            El codigo nos presenta un menu por la estructura de control switch, la cual nos permite seleccionar una accion a realizar entre las posibles declaradas.
+            
 //      2. ¿Para qué sirve la función fflush?
+            Limpia el bufer, permitiendo que no interfieran los caracteres residuales con la siguiente lectura de entrada. 
+            
 //      3. ¿Cuál es la sintaxis de un while?
+            while (condicion){
+            Codigo a ejecutar
+            }
+            
 //      4. ¿Cuál es la sintaxis de un switch?
+            switch (expresion){
+                case valor1:
+                    break;
+                case valor2:
+                    break;
+                default:
+                    break;
+            }
 //Modifique el siguien código para que mande a llamar la función suma, resta, multiplicación y división y agregue un mecanismo para preguntar si se deasea volver al menú principal.
 //Guarde y suba su código a un repositorio.
